@@ -1,27 +1,50 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(51, 51, 51);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 ::selection {
-    background-color: rgba(197, 149, 255,0.3);
-    z-index:-1;
+    background-color: rgba(197, 149, 255, 0.3);
+    z-index: -1;
 }
 
 a {
     text-decoration: none;
+    text-decoration-color: inherit;
 }
 
+a:visited {
+    color: rgb(51, 51, 51);
+}
+
+@font-face {
+    font-family: 'retro_party';
+    src: url('retro_party.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 header {
-    /*border-color: rgb(255, 2, 255);
-    border-width: 2px;
-    border-style: solid;*/
     font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-style: italic;
+}
+
+h1 {
+    font-family: 'retro_party';
+    font-style: normal;
+    font-size: 72px;
+}
+
+.Bitalic {
+    font-style: italic;
+    font-weight: 600;
 }
 
 #links {
@@ -31,28 +54,9 @@ header {
     font-weight: 600;
 }
 
-#TitleImg {
-    width: 900px;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-.pink {
-    font-style: italic;
-    font-weight: 600;
-    background-color: rgba(240, 175, 209, 0.5)
-}
-
-.blue {    
-    font-style: italic;
-    font-weight: 600;
-    background-color: rgba(106, 218, 255, 0.5)
-}
 
 #main {
-    /*border-color: rgb(81, 255, 0);
-    border-width: 2px;
-    border-style: solid;*/
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
 }
@@ -62,29 +66,16 @@ header {
     flex-direction: column;
     justify-content: center;
     height: 46vh;
-    width: 80vw; 
+    width: 80vw;
     font-size: 20px;
     line-height: 29px;
     text-align: center;
 }
 
-#cases {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /*border-color: mediumslateblue;
-    border-width: 2px;
-    border-style: solid;*/
-}
-
 footer {
-    /*border-color: darkviolet;
-    border-width: 2px;
-    border-style: solid;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #ico {
