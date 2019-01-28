@@ -29,9 +29,6 @@ a:visited, .fa-ico {
 }
 
 header {
-    /*border-color: rgb(255, 2, 255);
-    border-width: 2px;
-    border-style: solid;*/
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -70,7 +67,6 @@ h1 {
     height: 12vh;
 }
 section {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,9 +110,10 @@ footer {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 36px;
         line-height: 10vh;
         padding-top: 10vh;
+        text-align: center;
     }
 
     #links {
