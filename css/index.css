@@ -106,10 +106,14 @@ footer {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 38px;
         line-height: 10vh;
         padding-top: 10vh;
         text-align: center;
+    }
+
+    #subt {
+        font-size: 20px;
     }
 
     #links {
