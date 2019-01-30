@@ -170,12 +170,8 @@ footer {
 
     #main {
         font-size: 16px;
-        height: 70vh;
-        margin-top: 5vh;
-    }
-
-    #about {
         height: 85vh;
+        margin-top: 5vh;
     }
 
     .fa-ico {
@@ -215,7 +211,7 @@ footer {
     }
 
     #main {
-        height: 75vh;
+        height: 72vh;
         width: 90vw;
         justify-content: flex-start;
         font-size: 13px;
