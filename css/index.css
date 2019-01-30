@@ -132,8 +132,8 @@ footer {
 .fa-ico {
     font-size: 48px;
 }
- 
-@media only screen and (max-width: 1000px min-width: 601px) {
+
+@media only screen and (max-width: 1000px  min-width: 601px) {
     header {
         display: flex;
         flex-direction: column;
@@ -176,7 +176,7 @@ footer {
     }
 
     .fa-ico {
-        font-size: 20px;
+        font-size: 30px;
     }
     
     footer {
@@ -195,8 +195,19 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+        line-height: 10vh;
+        padding-top: 10vh;
+        text-align: center;
+    }
+    
     #main {
         height: 80vh;
         margin-top: 6vh;
+    }
+
+    .fa-ico {
+        font-size: 20px;
     }
 }
