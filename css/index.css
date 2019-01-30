@@ -206,7 +206,7 @@ footer {
     
     #subt, #links {
         font-size: 14px;
-        margin: none;
+        margin-top: 1vh;
     }
 
     #main {
