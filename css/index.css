@@ -133,7 +133,9 @@ footer {
     font-size: 48px;
 }
 
-@media only screen and (max-width: 1000px  min-width: 601px) {
+/*tablets portrait*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
     header {
         display: flex;
         flex-direction: column;
@@ -194,20 +196,25 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 481px) and (max-width: 767px){
     h1 {
-        font-size: 28px;
-        line-height: 10vh;
-        padding-top: 10vh;
-        text-align: center;
+        font-size: 36px;
     }
     
+    #subt, #links {
+        font-size: 19px;
+        margin: none;
+    }
+
     #main {
-        height: 80vh;
-        margin-top: 6vh;
+        height: 75vh;
+        width: 90vw;
+        justify-content: flex-start;
+        font-size: 15px;
+        margin-top: 1vh;
     }
 
     .fa-ico {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
