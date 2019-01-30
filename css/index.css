@@ -132,8 +132,8 @@ footer {
 .fa-ico {
     font-size: 48px;
 }
-
-@media only screen and (max-width: 800px) {
+ 
+@media only screen and (max-width: 900px) {
     header {
         display: flex;
         flex-direction: column;
@@ -167,8 +167,8 @@ footer {
 
     #main {
         font-size: 16px;
-        height: 75vh;
-        margin-top: 6vh;
+        height: 65vh;
+        margin-top: 12vh;
     }
 
     #about {
@@ -191,5 +191,13 @@ footer {
     #ico {
         display: flex;
         justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        font-size: 16px;
+        height: 80vh;
+        margin-top: 6vh;
     }
 }
