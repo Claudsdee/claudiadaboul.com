@@ -200,12 +200,16 @@ footer {
 /*phone portrait*/
 
 @media only screen and (max-width: 700px){
+    header {
+        justify-content: center;
+    }
+    
     h1 {
         font-size: 30px;
     }
     
     #subt, #links {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 1vh;
         text-align: center;
     }
