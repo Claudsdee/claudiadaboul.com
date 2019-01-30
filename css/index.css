@@ -188,7 +188,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         height: 10vh;
-        padding: unset;
+        margin-top: 3vh;
     }
 
     #ico {
