@@ -188,7 +188,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         height: 10vh;
-        margin-top: 3vh;
+        margin-top: 5vh;
     }
 
     #ico {
@@ -213,8 +213,8 @@ footer {
         height: 150vh;
         width: 90vw;
         justify-content: flex-start;
-        font-size: 12px;
-        margin-top: 1vh;
+        font-size: 11px;
+        margin-top: 3vh;
     }
 
     .fa-ico {
