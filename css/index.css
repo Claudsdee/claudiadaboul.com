@@ -81,6 +81,7 @@ h1 {
     font-style: italic;
     text-align: center;
     padding-top: 2%;
+    display: inline-flex;
 }
 
 #links {
@@ -112,6 +113,7 @@ h1 {
 .Bitalic {
     font-style: italic;
     font-weight: 600;
+
 }
 
 footer {
@@ -165,7 +167,7 @@ footer {
 
     #main {
         font-size: 16px;
-        height: 80vh;
+        height: 75vh;
         margin-top: 6vh;
     }
 
