@@ -76,6 +76,10 @@ h1 {
     font-size: 72px;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 #subt {
     font-size: 25px;
     font-style: italic;
@@ -192,7 +196,7 @@ footer {
 
 /*phone portrait*/
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 600px){
     header {
         justify-content: center;
         padding-top: 4vh;
